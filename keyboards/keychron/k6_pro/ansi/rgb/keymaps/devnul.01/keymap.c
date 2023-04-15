@@ -37,7 +37,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      KC_TAB,  KC_QUOT,     KC_COMMA,     KC_DOT,    KC_P,    KC_Y,    KC_F,     KC_G,    KC_C,    KC_R,    KC_L,     KC_LBRC,  KC_RBRC,  KC_BSLS,  KC_HOME,
      KC_CAPS, KC_A,     KC_O,     KC_E,    KC_U,    LSFT_T(KC_I),      RSFT_T(KC_D),    KC_H,    KC_T,    KC_N,     KC_S,  KC_MINS,     KC_ENT, KC_PGUP ,
      KC_LSFT,  KC_SCLN,     KC_Q,  LCMD_T(KC_J),  LCTL_T(KC_K),    LOPT_T(KC_X),    ROPT_T(KC_B),    RCTL_T(KC_M), RCMD_T(KC_W),  KC_V,   KC_Z,  KC_RSFT, KC_UP, KC_PGDN,
-     KC_LCTL,  KC_LOPTN, KC_LCMMD,                               KC_SPC,                       KC_RCMMD,MO(MAC_FN1),MO(FN2), KC_LEFT,  KC_DOWN, KC_RGHT),
+     KC_LCTL,  KC_LOPTN, MO(MAC_FN1),                               KC_SPC,                       MO(FN2),KC_LCMMD, KC_RCMMD,KC_LEFT,  KC_DOWN, KC_RGHT),
 
 [WIN_BASE] = LAYOUT_ansi_68(
      KC_ESC,   KC_1,     KC_2,     KC_3,     KC_4,     KC_5,     KC_6,     KC_7,     KC_8,     KC_9,     KC_0,     KC_MINS,  KC_EQL,   KC_BSPC, RGB_MOD,
@@ -67,7 +67,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      _______, RGB_RMOD, RGB_VAD,  RGB_HUD,    RGB_SAD, RGB_SPD,  _______, KC_MS_L,   KC_MS_D,  KC_MS_R, KC_ACL1,  KC_ACL0,  _______,   _______,
       _______, _______,  _______, _______,  KC_ACL1,   BAT_LVL,  KC_ACL2,   _______, KC_WH_U,  KC_WH_D,  _______, _______,  _______,   _______,
 
-     _______,  _______,  _______,                                KC_BTN2, _______,  KC_BTN1, _______,   _______,  _______,  KC_LEAD),
+     _______,  _______,  _______,                                KC_BTN1, _______,  _______, _______,   _______,  _______,  KC_LEAD),
 };
 
 
