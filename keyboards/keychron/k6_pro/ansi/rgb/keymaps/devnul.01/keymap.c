@@ -22,6 +22,7 @@
 // clang-format off
 #define KC_TASK LGUI(KC_TAB)
 #define KC_FLXP LGUI(KC_E)
+
 enum layers{
   MAC_BASE,
   WIN_BASE,
@@ -49,8 +50,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      KC_GRV,   KC_BRID,  KC_BRIU,  KC_MCTL,  KC_LNPD,  RGB_VAD,  RGB_VAI,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_MUTE,  KC_VOLD,  KC_VOLU,  _______,  RGB_TOG,
      _______,  _______,  _______,  KC_UP,    _______,   _______, _______,  KC_7,     KC_8,     KC_9,     _______,  _______,  _______, _______,    RESET,
      _______,  KC_HOME, KC_LEFT,  KC_DOWN,  KC_RIGHT, KC_END,    _______, KC_4,      KC_5,     KC_6,     _______,  _______,  _______,            _______,
-     _______,  _______, KC_PGUP, _______, KC_PGDN,    KC_ACL1,   KC_ACL2, KC_1,      KC_2,      KC_3,  _______,    _______,   _______, _______,_
-        _______,  _______,     _______,                                   KC_0,      _______,  _______, _______,  _______ , _______, _______ ),
+     _______,  _______, KC_PGUP, _______, KC_PGDN,    KC_ACL1,   KC_ACL2, KC_1,      KC_2,      KC_3,  _______,    _______,   _______, _______,
+     _______,  _______,     _______,                                   KC_0,      _______,  _______, _______,  _______ , _______, _______ ),
 
 
 [WIN_FN1] = LAYOUT_ansi_68(
