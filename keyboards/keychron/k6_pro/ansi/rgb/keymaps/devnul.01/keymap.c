@@ -54,19 +54,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 [WIN_FN1] = LAYOUT_ansi_68(
-     KC_GRV,   KC_BRID,  KC_BRIU,  KC_TASK,  KC_FILE,  RGB_VAD,  RGB_VAI,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_MUTE,  KC_VOLD,  KC_VOLU,  KC_____,  RGB_TOG,
-     KC_____,  BT_HST1,  BT_HST2,  BT_HST3,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____,
-     RGB_TOG,  RGB_MOD,  RGB_VAI,  RGB_HUI,  RGB_SAI,  RGB_SPI,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____,            KC_____,
-     KC_____,  RGB_RMOD, RGB_VAD,  RGB_HUD,  RGB_SAD,  RGB_SPD,  NK_TOGG,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____,
-     KC_____,  KC_____,  KC_____,                                KC_____,                      KC_____,  KC_____,  KC_____,  KC_____,  KC_____,  KC_____),
+     KC_GRV,   KC_BRID,  KC_BRIU,  KC_TASK,  KC_FILE,  RGB_VAD,  RGB_VAI,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_MUTE,  KC_VOLD,  KC_VOLU,  _______,  RGB_TOG,
+     _______,  BT_HST1,  BT_HST2,  BT_HST3,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,
+     RGB_TOG,  RGB_MOD,  RGB_VAI,  RGB_HUI,  RGB_SAI,  RGB_SPI,  _______,  _______,  _______,  _______,  _______,  _______,  _______,            _______,
+     _______,  RGB_RMOD, RGB_VAD,  RGB_HUD,  RGB_SAD,  RGB_SPD,  NK_TOGG,  _______,  _______,  _______,  _______,  _______,  _______,  _______,
+     _______,  _______,  _______,                                _______,                      _______,  _______,  _______,  _______,  _______,  _______),
 
 [FN2] = LAYOUT_ansi_68(
-     KC_TILD,  KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,   KC_F12,   KC_____,  KC_____,
+     KC_TILD,  KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,   KC_F12,   _______,  _______,
      RGB_TOG, RGB_MOD,  RGB_VAI,  RGB_HUI, RGB_SAI,    RGB_SPI,   _______, KC_BTN1, KC_MS_U,  KC_BTN2,   _______,  _______,  _______, _______,    _______,
      _______, RGB_RMOD, RGB_VAD,  RGB_HUD,    RGB_SAD, RGB_SPD,  _______, KC_MS_L,   KC_MS_D,  KC_MS_R, KC_ACL1,  KC_ACL0,  _______,   _______,
       _______, _______,  _______, _______,  KC_ACL1,   BAT_LVL,  KC_ACL2,   _______, KC_WH_U,  KC_WH_D,  _______, _______,  _______,   _______,
 
-     KC_____,  KC_____,  KC_____,                                KC_BTN2, KC_____,  KC_BTN1, KC_____,   KC_____,  KC_____,  KC_LEAD),
+     _______,  _______,  _______,                                KC_BTN2, _______,  KC_BTN1, _______,   _______,  _______,  KC_LEAD),
 };
 
 
